@@ -77,8 +77,9 @@ while(cap.isOpened()):
         mask2=cv2.morphologyEx(imBin2,cv2.MORPH_CLOSE,kernalOp)
 
         #Closing i.e First Dilate then Erode
-        #mask=cv2.morphologyEx(mask,cv2.MORPH_CLOSE,kernalCl)
-        #mask2=cv2.morphologyEx(mask2,cv2.MORPH_CLOSE,kernalCl)
+        kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
+        mask=cv2.morphologyEx(mask,cv2.MORPH_CLOSE,kernel)
+        mask2=cv2.morphologyEx(mask2,cv2.MORPH_CLOSE,kernel)
 
 
         #Find Contours
