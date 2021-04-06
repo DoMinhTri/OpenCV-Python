@@ -1,0 +1,8 @@
+ID: 1 crossed going down at Mon Mar 29 19:49:49 2021
+ID: 2 crossed going down at Mon Mar 29 19:49:57 2021
+ID: 3 crossed going down at Mon Mar 29 19:50:03 2021
+ID: 5 crossed going up at Mon Mar 29 19:50:05 2021
+ID: 7 crossed going down at Mon Mar 29 19:50:08 2021
+ID: 9 crossed going up at Mon Mar 29 19:50:08 2021
+ID: 10 crossed going up at Mon Mar 29 19:50:09 2021
+ID: 9 crossed going down at Mon Mar 29 19:50:14 2021
